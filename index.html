@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* Basic styles */
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #161515;
+            color: #333;
+        }
+        
+        header {
+            background-color: #111111;
+            color: rgb(8, 8, 8);
+            padding: 20px;
+            text-align: center;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            color: yellow;
+            text-decoration: none;
+        }
+        /* Additional CSS */
+        
+        html {
+            scroll-padding-top: 60px;
+            /* Adjust for header height */
+        }
+        
+        section {
+            padding: 60px 20px;
+            margin: 20px;
+            background-color: rgb(8, 8, 8);
+            color: yellow;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        /* Other sections' styles */
+        /* Basic styles */
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #131111;
+            color: #333;
+        }
+        /* Header with simple fade-in animation */
+        
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        /* Navigation Bar */
+        
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        nav ul li a:hover {
+            color: #ff6347;
+            /* Change link color on hover */
+        }
+        /* General section styles */
+        
+        section {
+            padding: 60px 20px;
+            margin: 20px;
+            background-color: rgb(15, 15, 15);
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            /* Initially hidden */
+            animation: fadeInUp 1s forwards;
+            /* Animation for sections */
+        }
+        
+        section h2 {
+            margin-bottom: 20px;
+        }
+        /* Animation for fading in sections */
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+                /* Start slightly lower */
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+                /* End at normal position */
+            }
+        }
+        /* Hover effect on buttons */
+        
+        button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #333;
+            color: white;
+            cursor: pointer;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+        
+        button:hover {
+            background-color: #ff6347;
+            transform: scale(1.1);
+            /* Grow button slightly on hover */
+        }
+        /* Scroll animations for sections */
+        
+        html {
+            scroll-padding-top: 60px;
+            /* Adjust for header height */
+        }
+        /* Fade-In Header */
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        /* Simple animation for navigation links on hover */
+        
+        nav ul li a {
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+        
+        nav ul li a:hover {
+            color: #ff6347;
+            transform: scale(1.1);
+        }
+        
+        .a {
+            color: rgb(239, 242, 250);
+            text-decoration: none;
+            /* Optional, to remove underline */
+        }
+        
+        .a:active {
+            color: rgb(173, 78, 236);
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+        <h1>MY PORTFOLIO</h1>
+        <h1.> Vishal Kumar Singh</h1>
+            <p> Blockchain Developer | Designer | Freelancer</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a security researcher highly passionate about cryptography & blockchain security with proven track record of consistently uncovering vulnerabilities in wide spectrum of DeFi protocols and performing at multiple audit contests. Before auditing
+            smart contracts, I studied C, Python, Java, Web-Dev for open-source contribution, and during the journey started learning Smart Contract Development & Security. I've experience in ERC20, ERC721, ERC4626, ERC4337, Lending, AMMs, Proxies, Staking,
+            Restaking, EVM. I am proficient in auditing code in Solidity and am trying to add more frameworks to my portfolio in the future.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>Rust and Rust-variants <br> Go <br> Solidity and EVM <br> python
+
+
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>HTML Table Example</title>
+            <style>
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                    /* Makes the table borders collapse into one */
+                }
+                
+                th,
+                td {
+                    padding: 10px;
+                    text-align: left;
+                    /* Align text to the left */
+                    border: 1px solid #ddd;
+                    /* Light gray border */
+                }
+                
+                th {
+                    background-color: #0c0b0b;
+                    /* Light gray background for header */
+                }
+                
+                tr:nth-child(even) {
+                    background-color: #111111;
+                    /* Alternate row color */
+                }
+                
+                tr:hover {
+                    background-color: #0f0f0f;
+                    /* Hover effect for rows */
+                }
+            </style>
+        </head>
+
+        <body>
+
+            <h2>Student Table</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>project </th>
+                        <th>preoject review type</th>
+                        <th>status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="https://github.com/code-423n4/2024-11-mantra">Mantra-chain</a>
+                        </td>
+                        <td>Infrastructure</td>
+                        <td>ongoing</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://github.com/code-423n4/2024-11-mantra-dex">Mantra-dex</a>
+                        </td>
+                        <td>Smart contract </td>
+                        <td>Ongoing</td>
+                    </tr>
+                    <tr>
+                        <td>Ethereum Protocol <br> Chainlink Payment Abstraction <br> Collar Protocol Core <br>Sorella Labs-Angstrom <br>StakeUp <br>InfinityPools <br>Panoptic <br> SymbioticFi <br>Decent - 0ft4626 <br> Zerolend One <br>Winnables Raffles <br>Tadle
+                            <br> LoopFi <br> RadicalxChange <br> Napier <br>ThunderLoan <br>TSwap <br>Smart Contract <br>Puppy Raffle
+                        </td>
+                        <td>19</td>
+                        <td>C</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </body>
+
+        </html>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required><br>
+            <input type="email" placeholder="Your Email" required><br>
+            <textarea placeholder="Your Message" rows="4" required></textarea><br>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script>
+        // Smooth Scroll Script
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                // Get the target section's ID
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                // Scroll smoothly to the target section
+                window.scrollTo({
+                    top: targetElement.offsetTop - 60, // Adjust for header height
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
+
+</html>
+
+</html>
